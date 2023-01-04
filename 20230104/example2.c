@@ -2,9 +2,7 @@
 
 int main(void)
 {
-	int N,M;
-	int imsi;
-	int i;
+	int N, M, imsi, i;
 	
 	while(1)
 	{
