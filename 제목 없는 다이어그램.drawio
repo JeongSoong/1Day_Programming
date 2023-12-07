@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" modified="2023-12-07T23:21:03.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DNmHtLYlIjkwR3yntfbz" version="22.1.7" type="github">
+  <diagram name="페이지-1" id="J7-b8YTokSkKwvVHaFTW">
+    <mxGraphModel dx="2434" dy="2743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="712" y="-204" width="1290" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-1" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/gps/datum&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-2" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/obstacle_flag&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="-35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-3" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/gps/utm_pos1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="-108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-4" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/Car_Control_cmd/W_SteerAngle_Int16&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="-181" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-5" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;ai/max_class_confidence&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="639" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-6" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/ai/max_class_id&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="559" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-7" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/start_waypoint_id_no&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-8" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/obstacle/new_wp&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="479" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-9" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/obstacle/lidar_avoid_control_status&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="401" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-10" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/finish_waypoint_id_no&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="182" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-11" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/gps/heading_angle&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="248" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-12" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/gps1/fix&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-77" y="327" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-21" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/traffic_light_type&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="719" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-22" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/wp/waypoint_run_fla&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="798" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-23" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/wp/wp_line_angle&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="256" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-24" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/wp/target_id&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-25" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/Car_Control_Cmd/Target_Angle&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="-35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-26" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/wp/target_start&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="182" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-27" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/Car_Control_Cmd/speed_Float32&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="-108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-28" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/Car_Control_Cmd/xte_steerAngle_Int16&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="-181" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-29" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/wp/target_goal&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-30" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/marker/point&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="332" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-31" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/flag/lane_control_set&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="959" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-33" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/usb_cam/capture_flag&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="731" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-35" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/cross_track_error&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="807" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-36" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/marker/heading_angle_line&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="493" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-37" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/marker/avoid_wp&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="413" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-38" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/Car_Control_Cmd/steering_control_mode&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="883" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-39" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/wp/target_guide_line&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="574" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-40" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/reset_path&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="408" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-47" value="waypoints_navigation_node" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="712" y="-204" width="215" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-48" value="Get&lt;br&gt;Parameters" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="895" y="62" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-49" value="Publishers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="895" y="226" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-50" value="Subscribers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="895" y="401" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-51" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/imu/heading_angle_radian&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-68" y="877" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="-17" width="648" height="783" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-53" value="waypoints_navigation_node(Cpp)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="-17" width="256" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="bjZTZUf6-Caa5O0SeFtL-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="25" width="278" height="169" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
