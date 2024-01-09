@@ -1,31 +1,75 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.6.33815.320
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Block", "Block\Block.vcxproj", "{86415879-50C2-4DD9-87A9-A61018DDAC80}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{86415879-50C2-4DD9-87A9-A61018DDAC80}.Debug|x64.ActiveCfg = Debug|x64
-		{86415879-50C2-4DD9-87A9-A61018DDAC80}.Debug|x64.Build.0 = Debug|x64
-		{86415879-50C2-4DD9-87A9-A61018DDAC80}.Debug|x86.ActiveCfg = Debug|Win32
-		{86415879-50C2-4DD9-87A9-A61018DDAC80}.Debug|x86.Build.0 = Debug|Win32
-		{86415879-50C2-4DD9-87A9-A61018DDAC80}.Release|x64.ActiveCfg = Release|x64
-		{86415879-50C2-4DD9-87A9-A61018DDAC80}.Release|x64.Build.0 = Release|x64
-		{86415879-50C2-4DD9-87A9-A61018DDAC80}.Release|x86.ActiveCfg = Release|Win32
-		{86415879-50C2-4DD9-87A9-A61018DDAC80}.Release|x86.Build.0 = Release|Win32
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {56E69BF1-4798-4C68-8BE2-6CAE40C0F273}
-	EndGlobalSection
-EndGlobal
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+struct Point {
+    int x;
+    int y;
+};
+
+bool comparePoints(const Point& a, const Point& b) {
+    return (a.y != b.y) ? (a.y < b.y) : (a.x < b.x);
+}
+
+long long ccw(const Point& a, const Point& b, const Point& c) {
+    return 1LL * ((b.x - a.x) * (c.y - a.y) - (b.y - a.y) * (c.x - a.x));
+}
+
+bool leftTurn(const Point& a, const Point& b, const Point& c) {
+    return ccw(a, b, c) > 0;
+}
+
+void quickSortByAngle(vector<Point>& points) {
+    sort(points.begin() + 1, points.end(), comparePoints);
+}
+
+int convexHull(vector<Point>& points) {
+    int n = points.size();
+    if (n <= 2) return n;
+
+    int minIdx = min_element(points.begin(), points.end(), comparePoints) - points.begin();
+    swap(points[0], points[minIdx]);
+
+    quickSortByAngle(points);
+
+    vector<int> hull;
+    hull.push_back(0);
+    hull.push_back(1);
+
+    for (int i = 2; i < n; i++) {
+        while (hull.size() >= 2) {
+            int second = hull.back();
+            int first = hull[hull.size() - 2];
+
+            if (leftTurn(points[first], points[second], points[i])) {
+                break;
+            }
+
+            hull.pop_back();
+        }
+
+        hull.push_back(i);
+    }
+
+    return hull.size();
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int N;
+    cin >> N;
+
+    vector<Point> points(N);
+    for (int i = 0; i < N; i++) {
+        cin >> points[i].x >> points[i].y;
+    }
+
+    int result = convexHull(points);
+    cout << result << '\n';
+
+    return 0;
+}
