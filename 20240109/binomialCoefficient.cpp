@@ -1,35 +1,45 @@
-#define _USE_MATH_DEFINES
+#include <iostream>
 
-#include <stdio.h>
-#include <math.h>
-
-#define R (2.5 * 10 * 10)
-#define L 0.6
-#define C (3.5 * pow(10, -6))
-#define F 60
-#define VMAX (1.5 * 10 * 10)
-
-void solution1(void)
-{
-    float XL, XC, Z, IMAX;
-
-    XL = 2 * M_PI * F * L;
-    XC = 1 / (2 * M_PI * F * C);
-    Z = sqrt(pow(R, 2) + pow((XL - XC), 2));
-    IMAX = VMAX / Z;
-
-    printf("solution1 = %f", IMAX);
+// 이항 계수 계산 함수
+unsigned long long calculateBinomialCoefficient(int n, int k) {
+    if (k == 0 || k == n) {
+        return 1;
+    } else {
+        unsigned long long result = 1;
+        for (int i = 1; i <= k; i++) {
+            result *= (n - i + 1);
+            result /= i;
+        }
+        return result;
+    }
 }
 
-void solution2(void)
-{
+// (x + a)^n을 전개하고 출력하는 함수
+void expandBinomial(int n) {
+    std::cout << "(" << 'x' << " + a)^" << n << " = ";
 
+    for (int k = 0; k <= n; k++) {
+        unsigned long long coefficient = calculateBinomialCoefficient(n, k);
+
+        std::cout << coefficient << " * " << 'x' << "^" << n - k;
+        if (k != 0) {
+            std::cout << " * a^" << k;
+        }
+
+        if (k != n) {
+            std::cout << " + ";
+        } else {
+            std::cout << "\n";
+        }
+    }
 }
 
-int main(void)
-{
-    solution1();
-    solution2();
+int main() {
+    int polynomialOrder;
+    std::cout << "몇 차수의 다항식을 전개하시겠습니까? ";
+    std::cin >> polynomialOrder;
+
+    expandBinomial(polynomialOrder);
 
     return 0;
 }
